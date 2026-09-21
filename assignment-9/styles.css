@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dedcdc;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+.sign_in {
+  background-color: #f8f4f4;
+  height: 98vh;
+  width: 48%;
+  margin-top: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+.sign_in input {
+  margin: 10px;
+  height: 30px;
+  border-radius: 8px;
+  border: #dedcdc solid;
+  color: grey;
+  background-color: #dedcdc;
+  width: 50%;
+}
+
+.greeting {
+  background-color: #fa1515;
+  height: 98vh;
+  width: 48%;
+  margin-top: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+button {
+  border-radius: 20px;
+  border: #dedcdc solid;
+  background-color: #dedcdc;
+  padding: 9px;
+  margin: 10px;
+}
+
+.bt2 {
+  margin-top: 30px;
+}
+
+.span {
+  margin-bottom: 10px;
+}
+
+.input {
+  display: flex;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  border: #dbd5d5 solid;
+  border-radius: 50px;
+  align-items: center;
+  background-color: #dedcdc;
+  padding: 3px;
+  margin: 5px 10px;
+  color: azure;
+}
+
+.sign_in h2 {
+  margin-bottom: 25px;
+}
+
+.sign_in a {
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.sign_in a,
+button {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.sign_in a:hover {
+  background-color: #c84949;
+  transform: scale(1.1);
+}
+
+button:hover {
+  background-color: #c12929;
+}
+
+.bt2:hover {
+  background-color: #ffffff;
+  color: #fa1515;
+}
